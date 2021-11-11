@@ -1,52 +1,22 @@
-# Prerequisites
-*.d
+# IDE files
+.vscode/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Hardhat files
+cache
+artifacts
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Excess
+node_modules
+.DS_Store
+bin
 
-# Precompiled Headers
-*.gch
-*.pch
+# Secret 
+.env
+.env*
+secret.json
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Yarn
+yarn-error.log
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# NPM
+package-lock.json
