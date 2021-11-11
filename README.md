@@ -1,2 +1,5 @@
 # perpetual-pool
-Decentralized shorts + longs 
+
+Options:
+- p2p leveraged perpetual marketplace
+- pool creation and interaction for erc20 tokens
